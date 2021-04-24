@@ -7,7 +7,7 @@ const sequelize = require('./src/db/Sequelize');
 const pokemonModel = require('./src/models/pokemon');
 
 const app = express();
-const port = 8080;
+const port = 8000;
 
 
 //middleware
