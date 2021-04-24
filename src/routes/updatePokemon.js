@@ -1,4 +1,4 @@
-const { Pokemon } = require('../db/sequelize');
+const { Pokemon } = require('../db/Sequelize');
 const { ValidationError, UniqueConstraintError } = require('sequelize');
 const auth = require('../auth/auth');
   

@@ -1,4 +1,4 @@
-const { Pokemon } = require('../db/sequelize');
+const { Pokemon } = require('../db/Sequelize');
 const { Op } = require('sequelize');
 
 module.exports = (app) => {

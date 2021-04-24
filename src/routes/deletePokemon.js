@@ -1,4 +1,4 @@
-const { Pokemon } = require('../db/sequelize');
+const { Pokemon } = require('../db/Sequelize');
 const auth = require('../auth/auth');
   
 module.exports = (app) => {
